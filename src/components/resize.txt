@@ -1,0 +1,32 @@
+ // redimensionamiento con logica en react js 
+    
+    // const resizeRef = useRef(null);
+    // const handleMouseDown = (event) => {
+    //     resizeRef.current = { startX: event.clientX, startWidth: width };
+    //     document.addEventListener('mousemove', handleMouseMove);
+    //     document.addEventListener('mouseup', handleMouseUp);
+    // };
+    // const handleMouseMove = (event) => {
+    //     if (resizeRef.current) {
+    //         const { startX, startWidth } = resizeRef.current;
+    //         const newWidth = startWidth + (event.clientX - startX);
+    //         setWidth(newWidth);
+    //     }
+    // };
+    // const handleMouseUp = () => {
+    //     document.removeEventListener('mousemove', handleMouseMove);
+    //     document.removeEventListener('mouseup', handleMouseUp);
+    //     resizeRef.current = null;
+    // };
+
+
+     {/* <div className="" onMouseDown={handleMouseDown} style={{
+                position: 'absolute',
+                top: '50%',
+                right: '0px',
+                transform: 'translateY(-50%)',
+                width: '5px',
+                height: '30px',
+                backgroundColor: '#ccc',
+                cursor: 'ew-resize'
+            }} /> */}

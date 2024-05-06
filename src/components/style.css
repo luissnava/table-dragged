@@ -1,0 +1,10 @@
+.divTruncado {
+  /* width: 250px;  */
+  white-space: nowrap;
+  /* Asegura que el texto no se envuelva */
+  overflow: hidden;
+  /* Oculta el texto que excede el contenedor */
+  text-overflow: ellipsis;
+  /* Añade puntos suspensivos al final */
+}
+
